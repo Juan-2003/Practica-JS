@@ -1,0 +1,336 @@
+#cuadrado{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: #d90000;
+    border:solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: #8a001e;
+}
+#cuadrado2{
+    position: absolute;
+    left: 160px;
+    top: 150px;
+    width: 400px;
+    height: 250px;
+    background: #fdffc9;
+    border:solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: #b5b5b5;
+}
+
+
+
+#circulo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: black;
+    top: 500px;
+    left: 100px;
+}
+
+#rectangulo{
+    position: relative;
+    width: 130px;
+    height: 20px;
+    top: 380px;
+    left: 400px;
+    border-radius: 10px;
+    background: #00548c;
+}
+
+#rectangulo2{
+    position: relative;
+    width: 130px;
+    height: 20px;
+    background: #ed0202;
+    top: 357px;
+    left: 200px;
+    border-radius: 10px;
+
+}
+
+#rectangulo3{
+    position: relative;
+    width: 200px; 
+    height: 100px; 
+    border: 3px solid #555;
+    border-radius: 10px;
+    background: #55ab62;
+    top: 385px;
+    left: 271px;
+}
+
+#flechas{
+    position: relative;
+    left: 570px;
+    top: 250px;
+}
+
+#circulo2{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+
+#circulos3{
+    position: absolute;
+    top: 100px;
+    left: 136px;
+}
+
+#pokeName, #pokeImg, #boton{
+    position: absolute;
+}
+
+#pokeImg{
+    width: 200px;
+    left: 275px;
+    top: 185px;
+}
+
+#pokeName{
+    left: 280px;
+    top: 450px;
+    border-color: #55ab62;
+    background: #55ab62;
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#boton{
+    left: 305px;
+    top: 500px;
+    background:black;
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+
+
+/*------ Sección 2 -----*/
+#cuadradoMin{
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background: #d90000;
+    border:solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: #8a001e;
+    left: 720px;
+    top: 80px;
+}
+
+#cuadrado3{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #55ab62;
+    border:solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    left: 765px;
+    top: -260px;
+}
+
+#cuadrado4{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background: #55ab62;
+    border:solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    left: 765px;
+    top: -230px;
+}
+
+
+
+/*------Tipo de Pokemon------*/
+
+#nombre{
+    position: absolute;
+    top: 370px;
+    left: 320px;
+    background: none;
+    border-style: none;
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+}
+#tipo{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 240px;
+    border-style: none;
+}
+
+#Tipo{
+    position: absolute;
+    left: 800px;
+    top: 240px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#hp{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 300px;
+    border-style: none;
+}
+
+#HP{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#attack{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 350px;
+    border-style: none;
+}
+
+#ATTACK{
+    position: absolute;
+    left: 800px;
+    top: 350px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#defense{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 400px;
+    border-style: none;
+}
+
+#DEFENSE{
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#special_attack{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 450px;
+    border-style: none;
+}
+
+#SPECIAL_ATTACK{
+    position: absolute;
+    left: 800px;
+    top: 450px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#special_defense{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 500px;
+    border-style: none;
+}
+
+#SPECIAL_DEFENSE{
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#speed{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 120px;
+    left: 1025px;
+    top: 550px;
+    border-style: none;
+}
+
+#SPEED{
+    position: absolute;
+    left: 800px;
+    top: 550px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+
+#MOVIMIENTOS{
+    position: absolute;
+    left: 800px;
+    top: 670px;
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+}
+
+#movimientos{
+    position: absolute;
+    background: #55ab62;
+    font-size: 25px;
+    color: black;
+    width: 160px;
+    left: 985px;
+    top: 670px;
+    border-style: none;
+}
+
+
+
